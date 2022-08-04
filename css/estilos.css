@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Titan+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
 
 *{
     padding: 0;
@@ -297,6 +298,69 @@ footer p{
 }
 
 /* fin -css- galeria*/
+
+/* inicio -css- ubicacion */
+
+.main_ubicacion h2{
+    padding: 0;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.mapa{
+    border: 2px solid black;
+}
+
+.direccion{
+    margin: 10px 0 10px 5px;
+    font-size: 25px;
+}
+
+/* fin -css- ubicacion */
+
+/* inicio -css- contacto */
+
+.main_contacto{
+    background-image: url(../img/imagen_fondo_galeria.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.main_contacto h2{
+    padding: 15px 0 10px 10px;
+    text-shadow: 0px 0px 12px rgb(255, 255, 255), 0px 0px 12px rgb(255, 255, 255), 0px 0px 12px rgb(255, 255, 255);
+}
+
+.main_contacto p{
+    text-shadow: 0px 0px 12px rgb(255, 255, 255), 0px 0px 12px rgb(255, 255, 255);
+    padding-bottom: 20px;
+}
+
+.formulario{
+    border: 5px solid white;
+    padding: 20px 0 15px 10px;
+    margin-left: 15px;
+    width: 30%;
+}
+
+.label_contacto{
+    font-family: 'Bangers','cursive';
+    font-size: 22px;
+    padding-left: 15px;
+}
+
+.formulario input{
+    background-color: rgb(206, 194, 194);
+}
+
+.formulario textarea{
+    background-color: rgb(206, 194, 194);
+    border: 2px solid black;
+}
+
+
+/* inicio -css- contacto */
 
 /* inicio de media queries */
 
@@ -607,6 +671,12 @@ footer p{
     .prod{
         display: none;
         visibility: hidden;
+    }
+
+    /* media queries ubicacion */
+
+    .direccion{
+        font-size: 15px;
     }
 }
 
